@@ -1,6 +1,6 @@
 
 setTimeout(() => {
     location.reload()
-}, 3000);
+}, 30000);
 
 console.log("teste");

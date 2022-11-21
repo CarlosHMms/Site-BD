@@ -45,8 +45,8 @@
                         echo "<td>" . $userdata["id_sensor"] . "</td>";
                         echo "<td>" . $userdata["id_tip"] . "</td>";
                         echo "<td>" . $userdata["valor"] . "</td>";
-                        echo "<td>" . $userdata["temperatura"]."C°". "</td>";
-                        echo "<td>" . $userdata["umidade"] ."%". "</td>";
+                        echo "<td>" . $userdata["temperatura"] . "C°" . "</td>";
+                        echo "<td>" . $userdata["umidade"] . "%" . "</td>";
                         echo "</tr>";
                     }
                     ?>
@@ -108,6 +108,23 @@
                     ?>
                 </tbody>
             </table>
+        </div>
+    </div><br><br>
+    <form name="form" action="recive.php" method="get" autocomplete="off">
+        <div class="label"><label for="">Alterar temperatura</label></div>
+        <input type="text" name="tempe">
+        <input type="submit" value="Alterar">
+    </form>
+    <div class="componentes">
+        <img src="imgs/carlos.jpeg" alt="Aluno 1">
+        <img src="imgs/iuri.jpg" alt="Aluno 2">
+        <img src="imgs/orlando.jpg" alt="Aluno 3">
+        <img src="imgs/thgod.jpg" alt="Aluno 4">
+        <div class="nomes">
+            <span class="nome1">Carlos Henrique</span>
+            <span class="nome2">Iuri Keller</span>
+            <span class="nome3">Orlando Filho</span>
+            <span class="nome4">Thiago Henrique</span>
         </div>
     </div>
 </body>
