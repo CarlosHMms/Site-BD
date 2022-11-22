@@ -16,8 +16,9 @@
 
     <?php include 'conexao.php' ?>
 
+    <!--CONECTANDO AO BANCO E EXECUTANDO O SELECT-->
     <?php
-    $sql = "SELECT * FROM sensores where cod_sensor <= 5";
+    $sql = "SELECT id_sensor,id_tip,valor,temperatura,umidade FROM sensores where cod_sensor <= 5"; 
     $resultado = mysqli_query($conn, $sql);
     ?>
 
